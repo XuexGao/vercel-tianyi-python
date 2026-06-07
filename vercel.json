@@ -2,11 +2,6 @@
   "version": 2,
   "routes": [
     {
-      "src": "/debug.html",
-      "status": 404,
-      "dest": "/404"
-    },
-    {
       "src": "/api/(.*)",
       "dest": "/api/index.py"
     },
