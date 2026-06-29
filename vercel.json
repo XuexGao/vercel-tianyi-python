@@ -2,6 +2,11 @@
   "version": 2,
   "routes": [
     {
+      "src": "/debug.html",
+      "dest": "/api/index.py",
+      "status": 404
+    },
+    {
       "src": "/api/(.*)",
       "dest": "/api/index.py"
     },
@@ -18,6 +23,12 @@
     {
       "src": "public/**",
       "use": "@vercel/static"
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/files?userId=default_user",
+      "schedule": "0 0 * * *"
     }
   ]
 }
