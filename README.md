@@ -1,3 +1,10 @@
+# 查看新仓库
+
+[XuexGao/tianyi-index](https://github.com/XuexGao/tianyi-index)
+
+
+
+
 # 天翼云网盘API
 
 这是一个简单的天翼云网盘API实现，基于Vercel无服务器函数和PostgreSQL数据库。支持自动登录，无需每次操作重新登录。
